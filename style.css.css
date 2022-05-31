@@ -1,0 +1,188 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+header {
+   background: lightgrey;
+   width: 100%;
+   height: 100%;
+
+}
+img {
+	width: 10%;
+	padding-right: 30px;
+   margin-left: 20px;
+   margin-top: -10px;
+}  
+
+.principal {
+	margin-left: 10px;
+	font-size: 35px;
+	padding: 20px;	
+}
+
+.informacao {
+	font-size: 25px;
+	text-align: center;
+   margin-top: -100px;
+
+}
+
+main {
+   background-color: darkblue;
+}
+
+.inputTexto{
+   font-size: 20px;
+   padding-left: 5px;   
+   position: absolute;
+   left: 100px;
+   margin-top: 100px;
+   background: lightgrey;
+   border-radius: 15px;
+   background: lightgrey;
+   width:277px;
+   height: 465px;
+   filter: drop-shadow(0px 4px 7px #000000) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.outputtexto {
+   font-size: 20px;
+   padding-left: 5px;   
+   position: absolute;	
+   margin-left: 900px;
+   margin-top: 100px;
+   ackground: lightgrey;
+   border-radius: 15px;
+   background: lightgrey;
+   width:277px;
+   height: 465px;
+   filter: drop-shadow(0px 4px 7px #000000) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   
+}
+
+button {
+position: absolute;
+width: 190px;
+height: 70px;
+text-align: center;
+padding: 30px;
+padding-left: 50px;
+font-size:20px;
+list-style: inline;
+margin-top: 200px;
+}
+
+
+.Encriptar {
+/*Rectangle 7 - button */
+
+box-sizing: border-box;
+
+filter: drop-shadow(0px 4px 7px #000000) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 22px;
+
+background: #00182E;
+border-radius: 22px;
+
+
+/* Cript */
+
+position: absolute;
+left: 40.20%;
+right: 5.48%;
+top: 400px;
+bottom: 7.79%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: rgba(188, 231, 18, 0.8);
+
+
+}
+
+.Descriptar {
+	/* Rectangle 4 - button */
+
+box-sizing: border-box;
+
+position: relative;
+
+filter: drop-shadow(0px 4px 7px #000000) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 22px;
+
+/* Rectangle 4 */
+
+background: #00182E;
+border-radius: 22px;
+
+/* Cript */
+
+position: absolute;
+left: 40.20%;
+right: 5.48%;
+top: 550px;
+bottom: 7.79%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: rgba(188, 231, 18, 0.8);
+
+
+}
+.limpar {
+/* Rectangle 7 - button */
+box-sizing: border-box;
+position: absolute;
+filter: drop-shadow(0px 4px 7px #000000) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 22px;
+
+/* Rectangle 4 */
+background: #00182E;
+border-radius: 22px;
+
+
+/* Cript */
+
+position: absolute;
+left: 40.20%;
+right: 5.48%;
+top: 700px;
+bottom: 7.79%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: rgba(188, 231, 18, 0.8);
+
+
+}
+
+footer {
+   text-align: center;
+   background: darkblue;
+   padding: 100px 0;
+   color: lightcoral;
+   width: 100%;
+   height: 100%;
+   margin-top:100%;
+}

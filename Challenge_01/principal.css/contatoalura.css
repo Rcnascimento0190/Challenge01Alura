@@ -1,0 +1,37 @@
+.titulo-centralizado {
+	text-align: center;
+	background: lightgrey;
+}
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+.box {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+	text-shadow: 5px;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 10px;
+
+}
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;}
+nav a:hover {
+	color: orangered;
+	text-decoration: underline;
+}
+
+	text-decoration: none;
